@@ -1,7 +1,0 @@
-{
-  "name": "Emotion Recognition",
-  "description": "Emotion Recognition App",
-  "repository": "https://github.com/AhmedF239/Emotion-Recognition",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "express", "static"]
-}
