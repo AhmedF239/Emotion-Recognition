@@ -40,8 +40,3 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 5. Open web browser at http://localhost:8000
-
-
-Or deploy app here
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AhmedF239/Emotion-Recognition=moodmetest)
