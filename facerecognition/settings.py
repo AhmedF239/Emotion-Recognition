@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-rguz@@woz@vo_f078y095!co=&bz72av8*4e+@u7e1ic3rhypm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['moodmetest.azurewebsites.net']
 
 
 # Application definition
