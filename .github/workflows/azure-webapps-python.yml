@@ -80,3 +80,23 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          
+          
+      - name: Azure Login
+        uses: Azure/login@v1.4.3
+        with:
+          # Paste output of `az ad sp create-for-rbac` as value of secret variable: AZURE_CREDENTIALS
+          creds:  # optional
+          # ClientId of the Azure Service principal created.
+          client-id: 6a58b8e1-e2f0-4f65-8945-3df3aabee343 # optional
+          # TenantId of the Azure Service principal created.
+          tenant-id: 3399e0b1-6537-4820-8278-6a4a3194dcb8 # optional
+          # Azure subscriptionId
+          subscription-id: 474604dd-d672-4fbc-a213-ec0c8b44441b # optional
+          # Set this value to true to enable Azure PowerShell Login in addition to Az CLI login
+          # enable-AzPSSession: # optional
+          # Name of the environment. Supported values are azurecloud, azurestack, azureusgovernment, azurechinacloud, azuregermancloud. Default being azurecloud
+          # environment: # optional, default is azurecloud
+          # Set this value to true to enable support for accessing tenants without subscriptions
+          # allow-no-subscriptions: # optional
+          # Provide audience field for access-token. Default value is api://AzureADTokenExchange        
