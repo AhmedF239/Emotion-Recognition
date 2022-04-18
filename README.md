@@ -21,3 +21,22 @@ This application can:
   - Roger Federer
   - Scarlett Johansson
   - Tom Cruise
+
+To run the code: 
+1. Clone this repo
+```
+https://github.com/AhmedF239/Facial-Recognition
+```
+2. cd into directory
+```
+cd facerecognition
+```
+3. Download the requirements
+```
+pip install -r requirements.txt
+```
+4. Runserver
+```
+python manage.py runserver
+```
+5. Open web browser at http://localhost:8000
