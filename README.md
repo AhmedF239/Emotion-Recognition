@@ -25,7 +25,7 @@ This application can:
 To run the code: 
 1. Clone this repo
 ```
-https://github.com/AhmedF239/Facial-Recognition
+https://github.com/AhmedF239/Emotion-Recognition
 ```
 2. cd into directory
 ```
