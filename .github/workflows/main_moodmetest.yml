@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'moodmetest'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FE270B6CC74141409A9F9D869183AD68 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5E4191157F8947C1BD4496D45BB6DA5A }}
