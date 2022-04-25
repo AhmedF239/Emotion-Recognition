@@ -22,7 +22,7 @@ This application can:
   - Scarlett Johansson
   - Tom Cruise
 
-You can try the code here: https://moodmetest.azurewebsites.net
+You can try the code here: https://emotionrecognitionfahmy.azurewebsites.net
 
 
 Or to test locally:
